@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=Anton&display=swap");
+/*
+  You don't need to touch this file to complete the assignment!
+  Unless you want to add styles and make it look more beautiful.
+*/
+
+/*
+  Some colors you may find useful:
+  #115ff4
+  #060ce9
+  #28a200
+  #8d2ab5
+  #74119c
+*/
+
+#spinner {
+  display: none;
+}
+#spinner {
+  margin: 10px 0;
+  font-weight: bold;
+}
+.catTitle {
+  background-color: rgb(91, 51, 255);
+  margin: 3px;
+  padding: 10px;
+  border: 1px solid #000;
+  width: 90px;
+  height: 40px;
+  text-align: center;
+  font-size: 14px;
+  display: flex;
+  position: relative;
+}
+.clue {
+  background-color: rgb(26, 26, 255);
+  padding: 10px;
+  margin: 3px;
+  text-align: center;
+  cursor: pointer;
+  border: 1px solid #000;
+  width: 90px;
+  height: 40px;
+}
+.clue.used {
+  background: gray;
+  color: white;
+  pointer-events: none;
+}
+#active-clue {
+  margin-top: 20px;
+  font-size: 18px;
+  font-weight: bold;
+}
+/*
+ exist
+*/
+.disabled {
+  display: none;
+}
+
+.viewed {
+  /* text-decoration: line-through; */
+  background-color: #ccc;
+}
+
+/*
+table css
+*/
+.instruction {
+  width: 715px;
+  margin: 5px;
+  padding: 5px;
+}
+
+#play {
+  margin: 5px;
+  padding: 5px;
+}
